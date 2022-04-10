@@ -12,7 +12,7 @@ test set size: 10000
 
 两层神经网络架构：y = softmax(w2 * (sigmoid(w1 * x + b1)) + b2)
 
-如何训练：运行train.py，train.py包括了训练网络的函数，参数查找的过程，通过运行train.py我们可以找到最好的超参数。
+如何训练：打开train.py，修改load_mnist函数中的路径为存储mnist数据集的路径。运行train.py，train.py包括了训练网络的函数，参数查找的过程，通过运行train.py我们可以找到最好的超参数。
 
 随后运行test.py，根据之前得到的超参数再训练一个最终的神经网络模型，导出为“model.pth”
 
