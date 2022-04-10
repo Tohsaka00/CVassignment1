@@ -1,5 +1,5 @@
 # CVassignment1
-MNIST数据集：
+MNIST数据集：mnist.npz
 
 数据源：https://s3.amazonaws.com/img-datasets/mnist.npz
 
